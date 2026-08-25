@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>command</key>
-	<string>#!/usr/bin/env ruby20
+	<string>#!/usr/bin/env ruby
 
 if ENV['TM_SCOPE'] =~ /string\.quoted\.double\.html/
   print "#{ENV['TM_DROPPED_FILE']}"

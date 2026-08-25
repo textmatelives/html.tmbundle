@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>#!/usr/bin/env ruby20
+	<string>#!/usr/bin/env ruby
 
 if ENV['TM_DROPPED_FILE'] =~ /(?i)\.mp4$/
   mimetype = 'mp4'
