@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>command</key>
-	<string>#!/usr/bin/env ruby20
+	<string>#!/usr/bin/env ruby
 
 if ENV['TM_DROPPED_FILE'] =~ /print[^\/]*\.css$/
   print "&lt;link rel=\"stylesheet\" href=\"#{ENV['TM_DROPPED_FILE']}\" media=\"print\"$TM_XHTML&gt;"
